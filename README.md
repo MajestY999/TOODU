@@ -1,29 +1,29 @@
-# To-do
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+### Запуск To do list 
+# 1) проверка установки Node
+ node -v
+ npm -v
+-----
+# 2) Клонирование проекта
+   git clone https://github.com/MajestY999/TOODU.git
+   cd TOODU-main
+------
+# 3) установка зависимостей 
+npm install 
+-----
+# 4) Запуск проекта 
 npm run dev
-```
+-----
+## После появится ссылка на рабосий проект 
 
-### Compile and Minify for Production
+http://localhost:5173/TOODU
 
-```sh
-npm run build
-```
+
+![Главная страница](image-1.png)
+
+# Изобрание того, что лист задач работает, а также задачи добаляются.
+
+![проверка на работоспособность](image-2.png)
+
+# Можно зачеркнуть задачу 
+
+![зачёркнутая задача](image-3.png)
